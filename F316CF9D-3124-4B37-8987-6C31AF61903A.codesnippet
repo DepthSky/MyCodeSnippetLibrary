@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>CS_TableInit</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>//    static NSString* const cellId = @"cellId";
+UITableView * mainTableView = [[UITableView alloc] initWithFrame:CGRectZero style:UITableViewStylePlain];
+    //mainTableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    mainTableView.dataSource = self;
+    mainTableView.delegate = self;
+mainTableView.backgroundColor=[UIColor &lt;#color#&gt;];
+    [self.view addSubview:tableView];
+[mainTableView registerClass:[&lt;#classCell#&gt; class] forCellReuseIdentifier:cellId];</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>F316CF9D-3124-4B37-8987-6C31AF61903A</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>初始化TableView</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>TableInit</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

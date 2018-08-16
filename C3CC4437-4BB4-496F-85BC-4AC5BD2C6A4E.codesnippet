@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>CS_ProScrollTwo</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>All</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(void)createTopScrollView{
+    
+    
+    NSMutableArray *TitleArr = [NSMutableArray array];
+    NSMutableArray *imageArr = [NSMutableArray array];
+    NSMutableArray *typegeArr = [NSMutableArray array];
+    
+    for(ListContent *cont in recommandArr){
+        
+        if (cont.contentImageUrl) {
+            NSString *image = cont.contentImageUrl;
+            [imageArr addObject:image];
+            NSString *title = cont.contentTitleName;
+            [TitleArr addObject:title];
+            NSString *type = [NSString stringWithFormat:@"%d",cont.listType];
+            [typegeArr addObject:type];
+        }
+        
+    }
+    
+    CGFloat pageWidth = SCREEN_WIDTH;
+    CGFloat pageHeight = SCREEN_WIDTH*9/16;
+    pageScroll = [[FFScrollView alloc] initPageViewWithFrame:CGRectMake(0, 0, pageWidth, pageHeight) views:imageArr TitleArr:TitleArr AndTypeStr:75690 andTypeArr:typegeArr];
+    pageScroll.pageViewDelegate = self;
+    
+    
+    
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>C3CC4437-4BB4-496F-85BC-4AC5BD2C6A4E</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Generic</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>Pro_ScrollView2</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
