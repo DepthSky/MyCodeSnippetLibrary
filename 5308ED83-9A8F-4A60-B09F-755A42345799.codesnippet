@@ -3,23 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CS_Mas_Make</string>
+	<string>CS_Str_Format</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#class#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-        &lt;#content#&gt;
-    }];</string>
+	<string>[NSString stringWithFormat:&lt;#parameter#&gt;,&lt;#parameter#&gt;]</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>04E07C73-E8B4-403F-A36D-DDC2E2E15567</string>
+	<string>5308ED83-9A8F-4A60-B09F-755A42345799</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>创建约束Block中无值</string>
+	<string>字符串生成-带参</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Masonry_Empty_Make</string>
+	<string>NSString-Format</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

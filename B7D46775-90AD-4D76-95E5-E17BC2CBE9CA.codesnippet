@@ -3,23 +3,35 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CS_Mas_Make</string>
+	<string>CS_Cell_Init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#class#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-        &lt;#content#&gt;
-    }];</string>
+	<string>-(instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
+{
+    self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
+    if(!self) return nil;
+    
+    self.selectionStyle = UITableViewCellSelectionStyleNone;
+
+    [self cellUIInit];
+    return self;
+}
+
+-(void)cellUIInit
+{
+    
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>04E07C73-E8B4-403F-A36D-DDC2E2E15567</string>
+	<string>B7D46775-90AD-4D76-95E5-E17BC2CBE9CA</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>创建约束Block中无值</string>
+	<string>cell 初始化</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Masonry_Empty_Make</string>
+	<string>CellInit</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

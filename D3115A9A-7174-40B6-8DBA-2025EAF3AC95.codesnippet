@@ -17,6 +17,7 @@
 &lt;#label#&gt;.backgroundColor = [UIColor whiteColor];
     [&lt;#superView#&gt; addSubview:&lt;#label#&gt;];
 [&lt;#label#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
+    &lt;#content#&gt;
 }];
 </string>
 	<key>IDECodeSnippetIdentifier</key>

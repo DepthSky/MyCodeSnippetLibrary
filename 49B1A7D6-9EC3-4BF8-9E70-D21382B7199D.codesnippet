@@ -3,23 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>CS_Mas_Make</string>
+	<string>CS_TextField_Init</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>[&lt;#class#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
-        &lt;#content#&gt;
-    }];</string>
+	<string>UITextField * &lt;#textField#&gt; = [[UITextField alloc]init];
+    &lt;#textField#&gt;.borderStyle = UITextBorderStyleNone;
+&lt;#textField#&gt;.font = &lt;#font#&gt;;
+&lt;#textField#&gt;.placeholder = &lt;#text#&gt;;
+    &lt;#textField#&gt;.clearButtonMode = UITextFieldViewModeUnlessEditing;
+[&lt;#parent#&gt;addSubview:&lt;#textField#&gt;];</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>04E07C73-E8B4-403F-A36D-DDC2E2E15567</string>
+	<string>49B1A7D6-9EC3-4BF8-9E70-D21382B7199D</string>
 	<key>IDECodeSnippetLanguage</key>
 	<string>Xcode.SourceCodeLanguage.Generic</string>
 	<key>IDECodeSnippetSummary</key>
-	<string>创建约束Block中无值</string>
+	<string>UITextField初始化</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>Masonry_Empty_Make</string>
+	<string>UITextFieldInit</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>

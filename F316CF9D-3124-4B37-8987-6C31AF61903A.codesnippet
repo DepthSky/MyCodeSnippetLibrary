@@ -15,7 +15,7 @@ UITableView * mainTableView = [[UITableView alloc] initWithFrame:CGRectZero styl
     mainTableView.dataSource = self;
     mainTableView.delegate = self;
 mainTableView.backgroundColor=[UIColor &lt;#color#&gt;];
-    [self.view addSubview:tableView];
+    [self.view addSubview:mainTableView];
 [mainTableView registerClass:[&lt;#classCell#&gt; class] forCellReuseIdentifier:cellId];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>F316CF9D-3124-4B37-8987-6C31AF61903A</string>

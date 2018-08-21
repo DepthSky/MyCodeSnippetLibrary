@@ -9,7 +9,8 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>UIImageView * &lt;#imageView#&gt; = [[UIImageView alloc]initWithImage:&lt;#image#&gt;];
+	<string>UIImageView * &lt;#imageView#&gt; = [[UIImageView alloc]initWithImage:[UIImage imageNamed:&lt;#image#&gt;]];
+[&lt;#parent#&gt; addSubview:&lt;#imageView#&gt;];
     [&lt;#imageView#&gt; mas_makeConstraints:^(MASConstraintMaker *make) {
         
     }];</string>
