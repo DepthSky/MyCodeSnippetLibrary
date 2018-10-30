@@ -9,9 +9,9 @@
 		<string>All</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>//    static NSString* const cellId = @"cellId";
-//    static NSString* const headerId = @"headerId";
-//    static NSString* const footerId = @"footId";
+	<string>//    static NSString* const CellId = @"cellId";
+//    static NSString* const HeaderId = @"headerId";
+//    static NSString* const FooterId = @"footId";
     
     UICollectionViewFlowLayout * flowLayout = [[UICollectionViewFlowLayout alloc]init];
     flowLayout.minimumLineSpacing = 0;
@@ -23,9 +23,9 @@
     mainCollectionView.delegate = self;
     [self.view addSubview:mainCollectionView];
     
-    [mainCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:cellId];
-//    [mainCollectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:headerId];
-//    [mainCollectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:footerId];</string>
+    [mainCollectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:CellId];
+//    [mainCollectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:HeaderId];
+//    [mainCollectionView registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:FooterId];</string>
 	<key>IDECodeSnippetIdentifier</key>
 	<string>35455A77-DC3B-41E7-A694-1FB78DBA0149</string>
 	<key>IDECodeSnippetLanguage</key>
